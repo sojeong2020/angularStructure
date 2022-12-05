@@ -1,0 +1,39 @@
+.card {
+    background-color: #fff;
+    margin-bottom: 20px;
+    transition: .3s;
+    border: 1px solid rgba(0,0,0,.3);
+    border-radius: 4px;
+    font-size: 1.1rem;
+}
+.card-title {
+    padding: 15px;
+    border-left: 10px solid #666;
+    background-color: rgb(225, 236, 232);
+    color: #000;
+    border-radius: 4px 4px 0 0;
+    font-size: 1.4rem;
+}
+.card-content {
+    padding: 20px;
+}
+.cardSimple {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: .3s;
+    margin-bottom: 20px;
+    border: 1px solid #b0b0b0;
+    padding: 5px;
+    border-radius: 4px;
+    padding: 10px 10px;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #89e29e;
+    border-color: #62dd7f
+}
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f0b0b5;
+}
