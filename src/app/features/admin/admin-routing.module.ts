@@ -9,11 +9,8 @@ const routes: Routes = [
   children: [
     {path: 'management', component:ManagementComponent},
     {path: 'sessions', component:SessionsComponent},
-
-  ]
-}
-]
-;
+  ]}
+];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],

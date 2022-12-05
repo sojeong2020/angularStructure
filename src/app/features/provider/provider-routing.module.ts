@@ -9,9 +9,7 @@ const routes: Routes = [
   children: [
     {path:'invoice', component: InvocingComponent},
     {path:'list', component: ListComponent},
-
-  ]
-  }
+  ]}
 ];
 
 @NgModule({

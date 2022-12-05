@@ -9,6 +9,8 @@ import { AboutComponent } from './features/about/about.component';
 import { ContactComponent } from './features/contact/contact.component';
 import { LoginadminComponent } from './core/auth/components/loginadmin/loginadmin.component';
 import { LoginproviderComponent } from './core/auth/components/loginprovider/loginprovider.component';
+//import { PublicModule } from './features/public/public.module';
+//import { AuthModule } from './core/auth/auth.module';
 
 import { AdminModule } from './features/admin/admin.module';
 import { ProviderModule } from './features/provider/provider.module';
@@ -28,6 +30,8 @@ import { LayoutModule } from './layout/layout.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    //PublicModule,
+    //AuthModule,
     AdminModule,
     ProviderModule,
     BrowserAnimationsModule,

@@ -12,8 +12,8 @@ const routes: Routes = [
   {path: 'index', component:IndexComponent},
   {path: 'about', component:AboutComponent},
   {path: 'contact', component:ContactComponent},
-  {path: 'admin/login', component:LoginadminComponent},
-  {path: 'provider/login', component:LoginproviderComponent},
+  {path: 'login/admin', component:LoginadminComponent},
+  {path: 'login/provider', component:LoginproviderComponent},
   
   {path: 'admin', loadChildren: () => import('./features/admin/admin.module').then(m => m.AdminModule)},
   {path: 'provider', loadChildren: () => import('./features/provider/provider.module').then(m => m.ProviderModule)},
