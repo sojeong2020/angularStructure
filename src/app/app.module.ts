@@ -14,7 +14,7 @@ import { AdminModule } from './features/admin/admin.module';
 import { ProviderModule } from './features/provider/provider.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularMaterialModule } from './angular-material/angular-material.module';
-
+import { LayoutModule } from './layout/layout.module';
 
 @NgModule({
   declarations: [
@@ -31,7 +31,8 @@ import { AngularMaterialModule } from './angular-material/angular-material.modul
     AdminModule,
     ProviderModule,
     BrowserAnimationsModule,
-    AngularMaterialModule
+    AngularMaterialModule,
+    LayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent],

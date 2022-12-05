@@ -5,6 +5,7 @@ import { AdminRoutingModule } from './admin-routing.module';
 import { AdminComponent } from './admin.component';
 import { SessionsComponent } from './components/sessions/sessions.component';
 import { ManagementComponent } from './components/management/management.component';
+import { LayoutModule } from 'src/app/layout/layout.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ManagementComponent } from './components/management/management.componen
   ],
   imports: [
     CommonModule,
-    AdminRoutingModule
+    AdminRoutingModule,
+    LayoutModule
   ],
   exports:[AdminComponent]
 

@@ -5,7 +5,7 @@ import { ProviderRoutingModule } from './provider-routing.module';
 import { ProviderComponent } from './provider.component';
 import { InvocingComponent } from './components/invocing/invocing.component';
 import { ListComponent } from './components/list/list.component';
-
+import { LayoutModule } from 'src/app/layout/layout.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,8 @@ import { ListComponent } from './components/list/list.component';
   ],
   imports: [
     CommonModule,
-    ProviderRoutingModule
+    ProviderRoutingModule,
+    LayoutModule
   ],
   exports:[ProviderComponent]
 })

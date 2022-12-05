@@ -9,6 +9,7 @@ import { LoginadminComponent } from './core/auth/components/loginadmin/loginadmi
 import { LoginproviderComponent } from './core/auth/components/loginprovider/loginprovider.component';
 
 const routes: Routes = [
+  {path: 'index', component:IndexComponent},
   {path: 'about', component:AboutComponent},
   {path: 'contact', component:ContactComponent},
   {path: 'admin/login', component:LoginadminComponent},
@@ -16,8 +17,6 @@ const routes: Routes = [
   
   {path: 'admin', loadChildren: () => import('./features/admin/admin.module').then(m => m.AdminModule)},
   {path: 'provider', loadChildren: () => import('./features/provider/provider.module').then(m => m.ProviderModule)},
-
-  {path: 'index', component:IndexComponent},
 
   { path: '', redirectTo: 'index', pathMatch: 'full' },
   {path: '**', component: PageNotFoundComponent} 
