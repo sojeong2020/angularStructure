@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { IndexComponent } from './features/index/index.component';
-import { AboutComponent } from './features/about/about.component';
-import { ContactComponent } from './features/contact/contact.component';
+import { IndexComponent } from './features/public/index/index.component';
+import { AboutComponent } from './features/public/about/about.component';
+import { ContactComponent } from './features/public/contact/contact.component';
 import { PageNotFoundComponent } from './views/page-not-found/page-not-found.component';
 import { LoginadminComponent } from './core/auth/components/loginadmin/loginadmin.component';
 import { LoginproviderComponent } from './core/auth/components/loginprovider/loginprovider.component';
