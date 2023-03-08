@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { IndexComponent } from './features/public/index/index.component';
 import { AboutComponent } from './features/public/about/about.component';
 import { ContactComponent } from './features/public/contact/contact.component';
-import { PageNotFoundComponent } from './views/page-not-found/page-not-found.component';
+//import { PageNotFoundComponent } from './views/page-not-found/page-not-found.component';
 import { LoginadminComponent } from './core/auth/components/loginadmin/loginadmin.component';
 import { LoginproviderComponent } from './core/auth/components/loginprovider/loginprovider.component';
 
@@ -19,7 +19,7 @@ const routes: Routes = [
   {path: 'provider', loadChildren: () => import('./features/provider/provider.module').then(m => m.ProviderModule)},
 
   { path: '', redirectTo: 'index', pathMatch: 'full' },
-  {path: '**', component: PageNotFoundComponent} 
+ // {path: '**', component: PageNotFoundComponent} 
  ];
 
  @NgModule({
